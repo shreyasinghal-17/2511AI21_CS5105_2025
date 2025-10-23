@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  tut_02:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: guide_allocation_system
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - allocation-network
+
+networks:
+  allocation-network:
+    driver: bridge

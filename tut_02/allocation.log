@@ -1,0 +1,832 @@
+2025-10-23 20:27:38,473 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 20:27:48,030 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 20:27:48,088 - INFO - Starting allocation process
+2025-10-23 20:27:48,089 - INFO - Reading input file: temp_input.csv
+2025-10-23 20:27:48,094 - INFO - Loaded 90 students
+2025-10-23 20:27:48,095 - INFO - Detected 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-23 20:27:48,095 - INFO - Sorting students by CGPA in descending order
+2025-10-23 20:27:48,107 - INFO - Starting allocation process using mod n round-robin algorithm
+2025-10-23 20:27:48,108 - INFO - 
+Cycle 1/18
+2025-10-23 20:27:48,109 - INFO -   Student 0 (Md Shad Akhtar, CGPA: 9.71) -> RM (Preference 1)
+2025-10-23 20:27:48,110 - INFO -   Student 18 (Manik Manohar, CGPA: 9.13) -> SK (Preference 2)
+2025-10-23 20:27:48,111 - INFO -   Student 36 (Md Akhlaqur Rahman, CGPA: 8.17) -> JM (Preference 1)
+2025-10-23 20:27:48,111 - INFO -   Student 54 (Soma Seth Duley, CGPA: 6.98) -> RS (Preference 2)
+2025-10-23 20:27:48,112 - INFO -   Student 72 (Suryakanta Panda, CGPA: 6.32) -> SKM (Preference 1)
+2025-10-23 20:27:48,112 - INFO - 
+Cycle 2/18
+2025-10-23 20:27:48,113 - INFO -   Student 1 (Subhajit Dey, CGPA: 9.69) -> RM2 (Preference 1)
+2025-10-23 20:27:48,115 - INFO -   Student 19 (Lagen Kumar Pradhan, CGPA: 9.13) -> SKM (Preference 1)
+2025-10-23 20:27:48,116 - INFO -   Student 37 (Ravindra Kumar, CGPA: 8.1) -> SK (Preference 1)
+2025-10-23 20:27:48,118 - INFO -   Student 55 (Vishal Rawat, CGPA: 6.94) -> MA (Preference 1)
+2025-10-23 20:27:48,120 - INFO -   Student 73 (Gaurav Sundaram, CGPA: 6.32) -> AR (Preference 1)
+2025-10-23 20:27:48,120 - INFO - 
+Cycle 3/18
+2025-10-23 20:27:48,121 - INFO -   Student 2 (August Dubey, CGPA: 9.62) -> RS (Preference 1)
+2025-10-23 20:27:48,125 - INFO -   Student 20 (Miss Mukta Shaw, CGPA: 9.12) -> SK (Preference 1)
+2025-10-23 20:27:48,127 - INFO -   Student 38 (V Naresh Kumar, CGPA: 8.01) -> RM2 (Preference 1)
+2025-10-23 20:27:48,128 - INFO -   Student 56 (Abhimanyu Singh Rathore, CGPA: 6.92) -> SKM (Preference 1)
+2025-10-23 20:27:48,131 - INFO -   Student 74 (Shadab Rabbani, CGPA: 6.29) -> JC (Preference 2)
+2025-10-23 20:27:48,132 - INFO - 
+Cycle 4/18
+2025-10-23 20:27:48,133 - INFO -   Student 3 (Prasanna Duley, CGPA: 9.58) -> SKD (Preference 1)
+2025-10-23 20:27:48,135 - INFO -   Student 21 (Janjarla Rajashekar, CGPA: 9.12) -> JM (Preference 1)
+2025-10-23 20:27:48,136 - INFO -   Student 39 (Nilanjan Kundu, CGPA: 8.0) -> SKM (Preference 1)
+2025-10-23 20:27:48,138 - INFO -   Student 57 (Roshni Chakraborty, CGPA: 6.91) -> SM (Preference 1)
+2025-10-23 20:27:48,140 - INFO -   Student 75 (Sukanta Sen, CGPA: 6.26) -> AE (Preference 1)
+2025-10-23 20:27:48,142 - INFO - 
+Cycle 5/18
+2025-10-23 20:27:48,144 - INFO -   Student 4 (Neelam, CGPA: 9.53) -> CA (Preference 1)
+2025-10-23 20:27:48,145 - INFO -   Student 22 (Rangala Tejeswar Reddy, CGPA: 9.06) -> JC (Preference 1)
+2025-10-23 20:27:48,148 - INFO -   Student 40 (Ram Krishna Verma, CGPA: 7.98) -> AE (Preference 1)
+2025-10-23 20:27:48,150 - INFO -   Student 58 (Sayantan Mitra, CGPA: 6.81) -> AE (Preference 1)
+2025-10-23 20:27:48,151 - INFO -   Student 76 (Ashish Kumar, CGPA: 6.21) -> RH (Preference 1)
+2025-10-23 20:27:48,152 - INFO - 
+Cycle 6/18
+2025-10-23 20:27:48,154 - INFO -   Student 5 (Sujay Kumar Saha, CGPA: 9.49) -> RM2 (Preference 1)
+2025-10-23 20:27:48,155 - INFO -   Student 23 (Abhishek Sunil Talele, CGPA: 8.96) -> CA (Preference 1)
+2025-10-23 20:27:48,157 - INFO -   Student 41 (Aryasomayajula Mrunal Krishna Sarma, CGPA: 7.98) -> ABM (Preference 1)
+2025-10-23 20:27:48,161 - INFO -   Student 59 (Aditya Keshari, CGPA: 6.75) -> SKM (Preference 1)
+2025-10-23 20:27:48,162 - INFO -   Student 77 (Kandadi Venu Madhava, CGPA: 5.97) -> SKM (Preference 1)
+2025-10-23 20:27:48,163 - INFO - 
+Cycle 7/18
+2025-10-23 20:27:48,164 - INFO -   Student 6 (Rinku Kumar Gouda, CGPA: 9.48) -> JM (Preference 1)
+2025-10-23 20:27:48,164 - INFO -   Student 24 (Saket, CGPA: 8.89) -> ABM (Preference 1)
+2025-10-23 20:27:48,165 - INFO -   Student 42 (Jay Bhushan, CGPA: 7.97) -> RM2 (Preference 1)
+2025-10-23 20:27:48,166 - INFO -   Student 60 (Sreenath P R, CGPA: 6.75) -> RM2 (Preference 1)
+2025-10-23 20:27:48,167 - INFO -   Student 78 (Mantavya Agarwal, CGPA: 5.91) -> SK (Preference 1)
+2025-10-23 20:27:48,167 - INFO - 
+Cycle 8/18
+2025-10-23 20:27:48,169 - INFO -   Student 7 (Barun Halder, CGPA: 9.48) -> ABM (Preference 1)
+2025-10-23 20:27:48,170 - INFO -   Student 25 (Chandan Gupta, CGPA: 8.86) -> RM2 (Preference 1)
+2025-10-23 20:27:48,171 - INFO -   Student 43 (Debashis Bhowmik, CGPA: 7.86) -> RM2 (Preference 1)
+2025-10-23 20:27:48,171 - INFO -   Student 61 (Arjun Bhandare Balachandra, CGPA: 6.74) -> CA (Preference 1)
+2025-10-23 20:27:48,173 - INFO -   Student 79 (Aswin Krishna, CGPA: 5.86) -> RS (Preference 1)
+2025-10-23 20:27:48,176 - INFO - 
+Cycle 9/18
+2025-10-23 20:27:48,177 - INFO -   Student 8 (Niraj Kumar, CGPA: 9.44) -> JM (Preference 1)
+2025-10-23 20:27:48,178 - INFO -   Student 26 (Mallika Rani Seth, CGPA: 8.79) -> AE (Preference 1)
+2025-10-23 20:27:48,179 - INFO -   Student 44 (Rahul Dilare, CGPA: 7.75) -> SM (Preference 1)
+2025-10-23 20:27:48,179 - INFO -   Student 62 (Busireddy Venkat Dheeraj Reddy, CGPA: 6.74) -> ABM (Preference 1)
+2025-10-23 20:27:48,180 - INFO -   Student 80 (Shibsankar Das, CGPA: 5.84) -> ST (Preference 1)
+2025-10-23 20:27:48,180 - INFO - 
+Cycle 10/18
+2025-10-23 20:27:48,181 - INFO -   Student 9 (Biswajyoti Mukherjee, CGPA: 9.43) -> RM2 (Preference 1)
+2025-10-23 20:27:48,182 - INFO -   Student 27 (Avinash Kumar, CGPA: 8.77) -> AM (Preference 1)
+2025-10-23 20:27:48,184 - INFO -   Student 45 (Palash Sarkar, CGPA: 7.54) -> SKD (Preference 1)
+2025-10-23 20:27:48,185 - INFO -   Student 63 (Amrit Raj, CGPA: 6.73) -> JC (Preference 1)
+2025-10-23 20:27:48,186 - INFO -   Student 81 (Alok Baranwal, CGPA: 5.81) -> RM (Preference 1)
+2025-10-23 20:27:48,186 - INFO - 
+Cycle 11/18
+2025-10-23 20:27:48,190 - INFO -   Student 10 (Shubhendu Yadav, CGPA: 9.36) -> SKM (Preference 1)
+2025-10-23 20:27:48,190 - INFO -   Student 28 (Anoop Kumar Panday, CGPA: 8.76) -> SK (Preference 1)
+2025-10-23 20:27:48,191 - INFO -   Student 46 (Ayush Inani, CGPA: 7.52) -> MA (Preference 1)
+2025-10-23 20:27:48,192 - INFO -   Student 64 (Mende Akshay, CGPA: 6.67) -> SKM (Preference 1)
+2025-10-23 20:27:48,192 - INFO -   Student 82 (Khushwant Singh, CGPA: 5.78) -> MA (Preference 1)
+2025-10-23 20:27:48,193 - INFO - 
+Cycle 12/18
+2025-10-23 20:27:48,194 - INFO -   Student 11 (Amulya Kumar Mahto, CGPA: 9.36) -> MA (Preference 1)
+2025-10-23 20:27:48,194 - INFO -   Student 29 (Dileep Kumar Koshley, CGPA: 8.75) -> JC (Preference 1)
+2025-10-23 20:27:48,196 - INFO -   Student 47 (Shikhar Choudhary, CGPA: 7.31) -> AE (Preference 1)
+2025-10-23 20:27:48,196 - INFO -   Student 65 (Karan Kumar Gupta, CGPA: 6.66) -> SKD (Preference 1)
+2025-10-23 20:27:48,197 - INFO -   Student 83 (Mausam Chouksey, CGPA: 5.76) -> CA (Preference 1)
+2025-10-23 20:27:48,197 - INFO - 
+Cycle 13/18
+2025-10-23 20:27:48,198 - INFO -   Student 12 (Mohammad Irshad, CGPA: 9.34) -> AE (Preference 1)
+2025-10-23 20:27:48,198 - INFO -   Student 30 (Alok Kumar, CGPA: 8.74) -> SM (Preference 1)
+2025-10-23 20:27:48,199 - INFO -   Student 48 (Ajeet Kumar, CGPA: 7.31) -> AR (Preference 1)
+2025-10-23 20:27:48,200 - INFO -   Student 66 (Deba Prasad Dash, CGPA: 6.65) -> ABM (Preference 1)
+2025-10-23 20:27:48,201 - INFO -   Student 84 (Gour Mohan Das, CGPA: 5.67) -> RM2 (Preference 1)
+2025-10-23 20:27:48,201 - INFO - 
+Cycle 14/18
+2025-10-23 20:27:48,202 - INFO -   Student 13 (Vikash Kumar Rai, CGPA: 9.3) -> RM (Preference 1)
+2025-10-23 20:27:48,203 - INFO -   Student 31 (Jayant Saini, CGPA: 8.72) -> ABM (Preference 1)
+2025-10-23 20:27:48,205 - INFO -   Student 49 (Chandan Kumar Jha, CGPA: 7.24) -> JM (Preference 1)
+2025-10-23 20:27:48,206 - INFO -   Student 67 (Ashish Kumar, CGPA: 6.6) -> RS (Preference 1)
+2025-10-23 20:27:48,206 - INFO -   Student 85 (Sushant Kumar, CGPA: 5.62) -> JM (Preference 1)
+2025-10-23 20:27:48,207 - INFO - 
+Cycle 15/18
+2025-10-23 20:27:48,207 - INFO -   Student 14 (Angshuman Das, CGPA: 9.29) -> AE (Preference 1)
+2025-10-23 20:27:48,208 - INFO -   Student 32 (Chintha Tejeswar Reddy, CGPA: 8.39) -> MA (Preference 1)
+2025-10-23 20:27:48,208 - INFO -   Student 50 (Kartick Chandra Seth, CGPA: 7.23) -> SKD (Preference 1)
+2025-10-23 20:27:48,209 - INFO -   Student 68 (Devansh Jaiswal, CGPA: 6.6) -> AM (Preference 1)
+2025-10-23 20:27:48,209 - INFO -   Student 86 (Pramit Biswas, CGPA: 5.62) -> AR (Preference 1)
+2025-10-23 20:27:48,211 - INFO - 
+Cycle 16/18
+2025-10-23 20:27:48,211 - INFO -   Student 15 (Rishabh Shukla, CGPA: 9.26) -> AE (Preference 1)
+2025-10-23 20:27:48,211 - INFO -   Student 33 (Rajesh Kumar Gautam, CGPA: 8.38) -> AR (Preference 1)
+2025-10-23 20:27:48,212 - INFO -   Student 51 (Bhavesh Mendhekar, CGPA: 7.11) -> JC (Preference 1)
+2025-10-23 20:27:48,212 - INFO -   Student 69 (Ritesh Kumar, CGPA: 6.55) -> RS (Preference 1)
+2025-10-23 20:27:48,213 - INFO -   Student 87 (Saurabh Dubey, CGPA: 5.62) -> ST (Preference 1)
+2025-10-23 20:27:48,213 - INFO - 
+Cycle 17/18
+2025-10-23 20:27:48,215 - INFO -   Student 16 (Bathina Chaitanya, CGPA: 9.23) -> SS (Preference 1)
+2025-10-23 20:27:48,218 - INFO -   Student 34 (Debi Pada Jana, CGPA: 8.31) -> AR (Preference 1)
+2025-10-23 20:27:48,219 - INFO -   Student 52 (Sarim Kamal, CGPA: 7.08) -> SKD (Preference 1)
+2025-10-23 20:27:48,221 - INFO -   Student 70 (Anita Chandra, CGPA: 6.55) -> RM2 (Preference 1)
+2025-10-23 20:27:48,223 - INFO -   Student 88 (Md Shamim Shah, CGPA: 5.57) -> MA (Preference 1)
+2025-10-23 20:27:48,223 - INFO - 
+Cycle 18/18
+2025-10-23 20:27:48,224 - INFO -   Student 17 (Nagudala Manoj Kumar, CGPA: 9.15) -> SKM (Preference 1)
+2025-10-23 20:27:48,225 - INFO -   Student 35 (Sneha Kumari, CGPA: 8.29) -> RM2 (Preference 1)
+2025-10-23 20:27:48,225 - INFO -   Student 53 (Ashish Kumar Singh, CGPA: 6.99) -> RM (Preference 1)
+2025-10-23 20:27:48,226 - INFO -   Student 71 (Sanjib Saikia, CGPA: 6.34) -> SS (Preference 1)
+2025-10-23 20:27:48,226 - INFO -   Student 89 (Anirban Chakraborty, CGPA: 5.57) -> JC (Preference 1)
+2025-10-23 20:27:48,227 - INFO - 
+Creating allocation output
+2025-10-23 20:27:48,242 - INFO - Creating preference statistics
+2025-10-23 20:27:48,246 - INFO - 
+Allocation Summary:
+2025-10-23 20:27:48,246 - INFO - Total students: 90
+2025-10-23 20:27:48,247 - INFO - Allocated students: 90
+2025-10-23 20:27:48,247 - INFO - Unallocated students: 0
+2025-10-23 20:27:48,248 - INFO -   ABM: 6 students
+2025-10-23 20:27:48,249 - INFO -   AE: 8 students
+2025-10-23 20:27:48,250 - INFO -   AM: 2 students
+2025-10-23 20:27:48,251 - INFO -   AR: 5 students
+2025-10-23 20:27:48,251 - INFO -   CA: 4 students
+2025-10-23 20:27:48,252 - INFO -   JC: 6 students
+2025-10-23 20:27:48,252 - INFO -   JM: 6 students
+2025-10-23 20:27:48,253 - INFO -   MA: 6 students
+2025-10-23 20:27:48,253 - INFO -   RH: 1 students
+2025-10-23 20:27:48,255 - INFO -   RM: 4 students
+2025-10-23 20:27:48,256 - INFO -   RM2: 11 students
+2025-10-23 20:27:48,257 - INFO -   RS: 5 students
+2025-10-23 20:27:48,258 - INFO -   SK: 5 students
+2025-10-23 20:27:48,259 - INFO -   SKD: 5 students
+2025-10-23 20:27:48,260 - INFO -   SKM: 9 students
+2025-10-23 20:27:48,260 - INFO -   SM: 3 students
+2025-10-23 20:27:48,261 - INFO -   SS: 2 students
+2025-10-23 20:27:48,261 - INFO -   ST: 2 students
+2025-10-23 20:27:48,264 - INFO - Allocation completed successfully
+2025-10-23 20:41:37,857 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 20:41:40,723 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 20:41:40,776 - INFO - Starting allocation process
+2025-10-23 20:41:40,777 - INFO - Reading input file: temp_input.csv
+2025-10-23 20:41:40,786 - INFO - Loaded 90 students
+2025-10-23 20:41:40,786 - INFO - Detected 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-23 20:41:40,788 - INFO - Sorting students by CGPA in descending order
+2025-10-23 20:41:40,790 - INFO - Total students: 90
+2025-10-23 20:41:40,790 - INFO - Complete cycles: 5
+2025-10-23 20:41:40,791 - INFO - Remaining students: 0
+2025-10-23 20:41:40,791 - INFO - Starting allocation process using mod n round-robin algorithm
+2025-10-23 20:41:40,791 - INFO - 
+================================================================================
+2025-10-23 20:41:40,792 - INFO - CYCLE 1/5
+2025-10-23 20:41:40,792 - INFO - ================================================================================
+2025-10-23 20:41:40,793 - INFO - Students in this cycle: indices 0 to 17
+2025-10-23 20:41:40,794 - INFO -   Student 0 (Md Shad Akhtar, CGPA: 9.71) -> RM (Preference 1)
+2025-10-23 20:41:40,795 - INFO -   Student 1 (Subhajit Dey, CGPA: 9.69) -> RM2 (Preference 1)
+2025-10-23 20:41:40,796 - INFO -   Student 2 (August Dubey, CGPA: 9.62) -> RS (Preference 1)
+2025-10-23 20:41:40,797 - INFO -   Student 3 (Prasanna Duley, CGPA: 9.58) -> SKD (Preference 1)
+2025-10-23 20:41:40,797 - INFO -   Student 4 (Neelam, CGPA: 9.53) -> CA (Preference 1)
+2025-10-23 20:41:40,798 - INFO -   Student 5 (Sujay Kumar Saha, CGPA: 9.49) -> AM (Preference 2)
+2025-10-23 20:41:40,799 - INFO -   Student 6 (Rinku Kumar Gouda, CGPA: 9.48) -> JM (Preference 1)
+2025-10-23 20:41:40,801 - INFO -   Student 7 (Barun Halder, CGPA: 9.48) -> ABM (Preference 1)
+2025-10-23 20:41:40,803 - INFO -   Student 8 (Niraj Kumar, CGPA: 9.44) -> AE (Preference 2)
+2025-10-23 20:41:40,805 - INFO -   Student 9 (Biswajyoti Mukherjee, CGPA: 9.43) -> AR (Preference 2)
+2025-10-23 20:41:40,806 - INFO -   Student 10 (Shubhendu Yadav, CGPA: 9.36) -> SKM (Preference 1)
+2025-10-23 20:41:40,812 - INFO -   Student 11 (Amulya Kumar Mahto, CGPA: 9.36) -> MA (Preference 1)
+2025-10-23 20:41:40,815 - INFO -   Student 12 (Mohammad Irshad, CGPA: 9.34) -> SM (Preference 5)
+2025-10-23 20:41:40,818 - INFO -   Student 13 (Vikash Kumar Rai, CGPA: 9.30) -> SS (Preference 4)
+2025-10-23 20:41:40,821 - INFO -   Student 14 (Angshuman Das, CGPA: 9.29) -> SK (Preference 2)
+2025-10-23 20:41:40,824 - INFO -   Student 15 (Rishabh Shukla, CGPA: 9.26) -> JC (Preference 2)
+2025-10-23 20:41:40,827 - INFO -   Student 16 (Bathina Chaitanya, CGPA: 9.23) -> ST (Preference 6)
+2025-10-23 20:41:40,833 - INFO -   Student 17 (Nagudala Manoj Kumar, CGPA: 9.15) -> RH (Preference 17)
+2025-10-23 20:41:40,839 - INFO - 
+Cycle 1 summary: 18 faculties allocated
+2025-10-23 20:41:40,842 - INFO - 
+================================================================================
+2025-10-23 20:41:40,868 - INFO - CYCLE 2/5
+2025-10-23 20:41:40,876 - INFO - ================================================================================
+2025-10-23 20:41:40,880 - INFO - Students in this cycle: indices 18 to 35
+2025-10-23 20:41:40,884 - INFO -   Student 18 (Manik Manohar, CGPA: 9.13) -> RM (Preference 1)
+2025-10-23 20:41:40,890 - INFO -   Student 19 (Lagen Kumar Pradhan, CGPA: 9.13) -> SKM (Preference 1)
+2025-10-23 20:41:40,892 - INFO -   Student 20 (Miss Mukta Shaw, CGPA: 9.12) -> SK (Preference 1)
+2025-10-23 20:41:40,896 - INFO -   Student 21 (Janjarla Rajashekar, CGPA: 9.12) -> JM (Preference 1)
+2025-10-23 20:41:40,900 - INFO -   Student 22 (Rangala Tejeswar Reddy, CGPA: 9.06) -> JC (Preference 1)
+2025-10-23 20:41:40,901 - INFO -   Student 23 (Abhishek Sunil Talele, CGPA: 8.96) -> CA (Preference 1)
+2025-10-23 20:41:40,902 - INFO -   Student 24 (Saket, CGPA: 8.89) -> ABM (Preference 1)
+2025-10-23 20:41:40,903 - INFO -   Student 25 (Chandan Gupta, CGPA: 8.86) -> RM2 (Preference 1)
+2025-10-23 20:41:40,907 - INFO -   Student 26 (Mallika Rani Seth, CGPA: 8.79) -> AE (Preference 1)
+2025-10-23 20:41:40,919 - INFO -   Student 27 (Avinash Kumar, CGPA: 8.77) -> AM (Preference 1)
+2025-10-23 20:41:40,930 - INFO -   Student 28 (Anoop Kumar Panday, CGPA: 8.76) -> ST (Preference 4)
+2025-10-23 20:41:40,937 - INFO -   Student 29 (Dileep Kumar Koshley, CGPA: 8.75) -> SM (Preference 3)
+2025-10-23 20:41:40,942 - INFO -   Student 30 (Alok Kumar, CGPA: 8.74) -> MA (Preference 2)
+2025-10-23 20:41:40,947 - INFO -   Student 31 (Jayant Saini, CGPA: 8.72) -> SKD (Preference 2)
+2025-10-23 20:41:40,956 - INFO -   Student 32 (Chintha Tejeswar Reddy, CGPA: 8.39) -> RH (Preference 3)
+2025-10-23 20:41:40,959 - INFO -   Student 33 (Rajesh Kumar Gautam, CGPA: 8.38) -> AR (Preference 1)
+2025-10-23 20:41:40,964 - INFO -   Student 34 (Debi Pada Jana, CGPA: 8.31) -> SS (Preference 6)
+2025-10-23 20:41:40,970 - INFO -   Student 35 (Sneha Kumari, CGPA: 8.29) -> RS (Preference 3)
+2025-10-23 20:41:40,972 - INFO - 
+Cycle 2 summary: 18 faculties allocated
+2025-10-23 20:41:40,973 - INFO - 
+================================================================================
+2025-10-23 20:41:40,974 - INFO - CYCLE 3/5
+2025-10-23 20:41:40,975 - INFO - ================================================================================
+2025-10-23 20:41:40,975 - INFO - Students in this cycle: indices 36 to 53
+2025-10-23 20:41:40,976 - INFO -   Student 36 (Md Akhlaqur Rahman, CGPA: 8.17) -> JM (Preference 1)
+2025-10-23 20:41:40,977 - INFO -   Student 37 (Ravindra Kumar, CGPA: 8.10) -> SK (Preference 1)
+2025-10-23 20:41:40,977 - INFO -   Student 38 (V Naresh Kumar, CGPA: 8.01) -> RM2 (Preference 1)
+2025-10-23 20:41:40,978 - INFO -   Student 39 (Nilanjan Kundu, CGPA: 8.00) -> SKM (Preference 1)
+2025-10-23 20:41:40,980 - INFO -   Student 40 (Ram Krishna Verma, CGPA: 7.98) -> AE (Preference 1)
+2025-10-23 20:41:40,981 - INFO -   Student 41 (Aryasomayajula Mrunal Krishna Sarma, CGPA: 7.98) -> ABM (Preference 1)
+2025-10-23 20:41:40,982 - INFO -   Student 42 (Jay Bhushan, CGPA: 7.97) -> RS (Preference 2)
+2025-10-23 20:41:40,983 - INFO -   Student 43 (Debashis Bhowmik, CGPA: 7.86) -> RH (Preference 2)
+2025-10-23 20:41:40,984 - INFO -   Student 44 (Rahul Dilare, CGPA: 7.75) -> SM (Preference 1)
+2025-10-23 20:41:40,985 - INFO -   Student 45 (Palash Sarkar, CGPA: 7.54) -> SKD (Preference 1)
+2025-10-23 20:41:40,985 - INFO -   Student 46 (Ayush Inani, CGPA: 7.52) -> MA (Preference 1)
+2025-10-23 20:41:40,986 - INFO -   Student 47 (Shikhar Choudhary, CGPA: 7.31) -> AR (Preference 2)
+2025-10-23 20:41:40,987 - INFO -   Student 48 (Ajeet Kumar, CGPA: 7.31) -> RM (Preference 3)
+2025-10-23 20:41:40,987 - INFO -   Student 49 (Chandan Kumar Jha, CGPA: 7.24) -> SS (Preference 2)
+2025-10-23 20:41:40,988 - INFO -   Student 50 (Kartick Chandra Seth, CGPA: 7.23) -> JC (Preference 4)
+2025-10-23 20:41:40,989 - INFO -   Student 51 (Bhavesh Mendhekar, CGPA: 7.11) -> AM (Preference 7)
+2025-10-23 20:41:40,990 - INFO -   Student 52 (Sarim Kamal, CGPA: 7.08) -> CA (Preference 5)
+2025-10-23 20:41:40,991 - INFO -   Student 53 (Ashish Kumar Singh, CGPA: 6.99) -> ST (Preference 12)
+2025-10-23 20:41:40,991 - INFO - 
+Cycle 3 summary: 18 faculties allocated
+2025-10-23 20:41:40,992 - INFO - 
+================================================================================
+2025-10-23 20:41:40,992 - INFO - CYCLE 4/5
+2025-10-23 20:41:40,992 - INFO - ================================================================================
+2025-10-23 20:41:40,992 - INFO - Students in this cycle: indices 54 to 71
+2025-10-23 20:41:40,994 - INFO -   Student 54 (Soma Seth Duley, CGPA: 6.98) -> RM (Preference 1)
+2025-10-23 20:41:40,995 - INFO -   Student 55 (Vishal Rawat, CGPA: 6.94) -> MA (Preference 1)
+2025-10-23 20:41:40,995 - INFO -   Student 56 (Abhimanyu Singh Rathore, CGPA: 6.92) -> SKM (Preference 1)
+2025-10-23 20:41:40,998 - INFO -   Student 57 (Roshni Chakraborty, CGPA: 6.91) -> SM (Preference 1)
+2025-10-23 20:41:40,999 - INFO -   Student 58 (Sayantan Mitra, CGPA: 6.81) -> AE (Preference 1)
+2025-10-23 20:41:41,000 - INFO -   Student 59 (Aditya Keshari, CGPA: 6.75) -> AM (Preference 2)
+2025-10-23 20:41:41,000 - INFO -   Student 60 (Sreenath P R, CGPA: 6.75) -> RM2 (Preference 1)
+2025-10-23 20:41:41,001 - INFO -   Student 61 (Arjun Bhandare Balachandra, CGPA: 6.74) -> CA (Preference 1)
+2025-10-23 20:41:41,001 - INFO -   Student 62 (Busireddy Venkat Dheeraj Reddy, CGPA: 6.74) -> ABM (Preference 1)
+2025-10-23 20:41:41,006 - INFO -   Student 63 (Amrit Raj, CGPA: 6.73) -> JC (Preference 1)
+2025-10-23 20:41:41,011 - INFO -   Student 64 (Mende Akshay, CGPA: 6.67) -> SKD (Preference 2)
+2025-10-23 20:41:41,019 - INFO -   Student 65 (Karan Kumar Gupta, CGPA: 6.66) -> RS (Preference 4)
+2025-10-23 20:41:41,021 - INFO -   Student 66 (Deba Prasad Dash, CGPA: 6.65) -> ST (Preference 2)
+2025-10-23 20:41:41,023 - INFO -   Student 67 (Ashish Kumar, CGPA: 6.60) -> SK (Preference 5)
+2025-10-23 20:41:41,025 - INFO -   Student 68 (Devansh Jaiswal, CGPA: 6.60) -> JM (Preference 4)
+2025-10-23 20:41:41,026 - INFO -   Student 69 (Ritesh Kumar, CGPA: 6.55) -> SS (Preference 2)
+2025-10-23 20:41:41,028 - INFO -   Student 70 (Anita Chandra, CGPA: 6.55) -> AR (Preference 15)
+2025-10-23 20:41:41,030 - INFO -   Student 71 (Sanjib Saikia, CGPA: 6.34) -> RH (Preference 7)
+2025-10-23 20:41:41,030 - INFO - 
+Cycle 4 summary: 18 faculties allocated
+2025-10-23 20:41:41,031 - INFO - 
+================================================================================
+2025-10-23 20:41:41,031 - INFO - CYCLE 5/5
+2025-10-23 20:41:41,034 - INFO - ================================================================================
+2025-10-23 20:41:41,034 - INFO - Students in this cycle: indices 72 to 89
+2025-10-23 20:41:41,035 - INFO -   Student 72 (Suryakanta Panda, CGPA: 6.32) -> SKM (Preference 1)
+2025-10-23 20:41:41,037 - INFO -   Student 73 (Gaurav Sundaram, CGPA: 6.32) -> AR (Preference 1)
+2025-10-23 20:41:41,037 - INFO -   Student 74 (Shadab Rabbani, CGPA: 6.29) -> JC (Preference 2)
+2025-10-23 20:41:41,038 - INFO -   Student 75 (Sukanta Sen, CGPA: 6.26) -> AE (Preference 1)
+2025-10-23 20:41:41,038 - INFO -   Student 76 (Ashish Kumar, CGPA: 6.21) -> RH (Preference 1)
+2025-10-23 20:41:41,039 - INFO -   Student 77 (Kandadi Venu Madhava, CGPA: 5.97) -> ST (Preference 2)
+2025-10-23 20:41:41,039 - INFO -   Student 78 (Mantavya Agarwal, CGPA: 5.91) -> SK (Preference 1)
+2025-10-23 20:41:41,040 - INFO -   Student 79 (Aswin Krishna, CGPA: 5.86) -> RS (Preference 1)
+2025-10-23 20:41:41,040 - INFO -   Student 80 (Shibsankar Das, CGPA: 5.84) -> ABM (Preference 2)
+2025-10-23 20:41:41,041 - INFO -   Student 81 (Alok Baranwal, CGPA: 5.81) -> RM (Preference 1)
+2025-10-23 20:41:41,041 - INFO -   Student 82 (Khushwant Singh, CGPA: 5.78) -> MA (Preference 1)
+2025-10-23 20:41:41,041 - INFO -   Student 83 (Mausam Chouksey, CGPA: 5.76) -> CA (Preference 1)
+2025-10-23 20:41:41,043 - INFO -   Student 84 (Gour Mohan Das, CGPA: 5.67) -> RM2 (Preference 1)
+2025-10-23 20:41:41,043 - INFO -   Student 85 (Sushant Kumar, CGPA: 5.62) -> JM (Preference 1)
+2025-10-23 20:41:41,044 - INFO -   Student 86 (Pramit Biswas, CGPA: 5.62) -> SS (Preference 5)
+2025-10-23 20:41:41,045 - INFO -   Student 87 (Saurabh Dubey, CGPA: 5.62) -> AM (Preference 2)
+2025-10-23 20:41:41,047 - INFO -   Student 88 (Md Shamim Shah, CGPA: 5.57) -> SKD (Preference 13)
+2025-10-23 20:41:41,051 - INFO -   Student 89 (Anirban Chakraborty, CGPA: 5.57) -> SM (Preference 16)
+2025-10-23 20:41:41,052 - INFO - 
+Cycle 5 summary: 18 faculties allocated
+2025-10-23 20:41:41,052 - INFO - 
+Creating allocation output
+2025-10-23 20:41:41,055 - INFO - Creating preference statistics
+2025-10-23 20:41:41,056 - INFO - 
+================================================================================
+2025-10-23 20:41:41,056 - INFO - ALLOCATION SUMMARY
+2025-10-23 20:41:41,057 - INFO - ================================================================================
+2025-10-23 20:41:41,057 - INFO - Total students: 90
+2025-10-23 20:41:41,057 - INFO - Allocated students: 90
+2025-10-23 20:41:41,057 - INFO - Unallocated students: 0
+2025-10-23 20:41:41,060 - INFO - 
+Students per faculty:
+2025-10-23 20:41:41,060 - INFO -   ABM: 5 students
+2025-10-23 20:41:41,060 - INFO -   AE: 5 students
+2025-10-23 20:41:41,060 - INFO -   AM: 5 students
+2025-10-23 20:41:41,061 - INFO -   AR: 5 students
+2025-10-23 20:41:41,061 - INFO -   CA: 5 students
+2025-10-23 20:41:41,061 - INFO -   JC: 5 students
+2025-10-23 20:41:41,061 - INFO -   JM: 5 students
+2025-10-23 20:41:41,062 - INFO -   MA: 5 students
+2025-10-23 20:41:41,063 - INFO -   RH: 5 students
+2025-10-23 20:41:41,063 - INFO -   RM: 5 students
+2025-10-23 20:41:41,064 - INFO -   RM2: 5 students
+2025-10-23 20:41:41,065 - INFO -   RS: 5 students
+2025-10-23 20:41:41,065 - INFO -   SK: 5 students
+2025-10-23 20:41:41,067 - INFO -   SKD: 5 students
+2025-10-23 20:41:41,068 - INFO -   SKM: 5 students
+2025-10-23 20:41:41,068 - INFO -   SM: 5 students
+2025-10-23 20:41:41,069 - INFO -   SS: 5 students
+2025-10-23 20:41:41,069 - INFO -   ST: 5 students
+2025-10-23 20:41:41,080 - INFO - Allocation completed successfully
+2025-10-23 20:46:23,144 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:44:46,841 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:44:56,925 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:44:57,639 - INFO - Starting allocation process
+2025-10-23 21:44:57,641 - INFO - Reading input file: temp_input.csv
+2025-10-23 21:44:57,649 - INFO - Loaded 90 students
+2025-10-23 21:44:57,649 - INFO - Detected 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-23 21:44:57,649 - INFO - Sorting students by CGPA in descending order
+2025-10-23 21:44:57,655 - INFO - Total students: 90
+2025-10-23 21:44:57,655 - INFO - Complete cycles: 5
+2025-10-23 21:44:57,657 - INFO - Remaining students: 0
+2025-10-23 21:44:57,657 - INFO - Starting allocation process using mod n round-robin algorithm
+2025-10-23 21:44:57,658 - INFO - 
+================================================================================
+2025-10-23 21:44:57,658 - INFO - CYCLE 1/5
+2025-10-23 21:44:57,659 - INFO - ================================================================================
+2025-10-23 21:44:57,660 - INFO - Students in this cycle: indices 0 to 17
+2025-10-23 21:44:57,663 - INFO -   Student 0 (Md Shad Akhtar, CGPA: 9.71) -> RM (Preference 1)
+2025-10-23 21:44:57,665 - INFO -   Student 1 (Subhajit Dey, CGPA: 9.69) -> RM2 (Preference 1)
+2025-10-23 21:44:57,668 - INFO -   Student 2 (August Dubey, CGPA: 9.62) -> RS (Preference 1)
+2025-10-23 21:44:57,669 - INFO -   Student 3 (Prasanna Duley, CGPA: 9.58) -> SKD (Preference 1)
+2025-10-23 21:44:57,671 - INFO -   Student 4 (Neelam, CGPA: 9.53) -> CA (Preference 1)
+2025-10-23 21:44:57,672 - INFO -   Student 5 (Sujay Kumar Saha, CGPA: 9.49) -> AM (Preference 2)
+2025-10-23 21:44:57,673 - INFO -   Student 6 (Rinku Kumar Gouda, CGPA: 9.48) -> JM (Preference 1)
+2025-10-23 21:44:57,674 - INFO -   Student 7 (Barun Halder, CGPA: 9.48) -> ABM (Preference 1)
+2025-10-23 21:44:57,675 - INFO -   Student 8 (Niraj Kumar, CGPA: 9.44) -> AE (Preference 2)
+2025-10-23 21:44:57,679 - INFO -   Student 9 (Biswajyoti Mukherjee, CGPA: 9.43) -> AR (Preference 2)
+2025-10-23 21:44:57,682 - INFO -   Student 10 (Shubhendu Yadav, CGPA: 9.36) -> SKM (Preference 1)
+2025-10-23 21:44:57,684 - INFO -   Student 11 (Amulya Kumar Mahto, CGPA: 9.36) -> MA (Preference 1)
+2025-10-23 21:44:57,686 - INFO -   Student 12 (Mohammad Irshad, CGPA: 9.34) -> SM (Preference 5)
+2025-10-23 21:44:57,688 - INFO -   Student 13 (Vikash Kumar Rai, CGPA: 9.30) -> SS (Preference 4)
+2025-10-23 21:44:57,689 - INFO -   Student 14 (Angshuman Das, CGPA: 9.29) -> SK (Preference 2)
+2025-10-23 21:44:57,690 - INFO -   Student 15 (Rishabh Shukla, CGPA: 9.26) -> JC (Preference 2)
+2025-10-23 21:44:57,691 - INFO -   Student 16 (Bathina Chaitanya, CGPA: 9.23) -> ST (Preference 6)
+2025-10-23 21:44:57,696 - INFO -   Student 17 (Nagudala Manoj Kumar, CGPA: 9.15) -> RH (Preference 17)
+2025-10-23 21:44:57,699 - INFO - 
+Cycle 1 summary: 18 faculties allocated
+2025-10-23 21:44:57,700 - INFO - 
+================================================================================
+2025-10-23 21:44:57,700 - INFO - CYCLE 2/5
+2025-10-23 21:44:57,701 - INFO - ================================================================================
+2025-10-23 21:44:57,701 - INFO - Students in this cycle: indices 18 to 35
+2025-10-23 21:44:57,702 - INFO -   Student 18 (Manik Manohar, CGPA: 9.13) -> RM (Preference 1)
+2025-10-23 21:44:57,703 - INFO -   Student 19 (Lagen Kumar Pradhan, CGPA: 9.13) -> SKM (Preference 1)
+2025-10-23 21:44:57,705 - INFO -   Student 20 (Miss Mukta Shaw, CGPA: 9.12) -> SK (Preference 1)
+2025-10-23 21:44:57,706 - INFO -   Student 21 (Janjarla Rajashekar, CGPA: 9.12) -> JM (Preference 1)
+2025-10-23 21:44:57,707 - INFO -   Student 22 (Rangala Tejeswar Reddy, CGPA: 9.06) -> JC (Preference 1)
+2025-10-23 21:44:57,708 - INFO -   Student 23 (Abhishek Sunil Talele, CGPA: 8.96) -> CA (Preference 1)
+2025-10-23 21:44:57,709 - INFO -   Student 24 (Saket, CGPA: 8.89) -> ABM (Preference 1)
+2025-10-23 21:44:57,711 - INFO -   Student 25 (Chandan Gupta, CGPA: 8.86) -> RM2 (Preference 1)
+2025-10-23 21:44:57,714 - INFO -   Student 26 (Mallika Rani Seth, CGPA: 8.79) -> AE (Preference 1)
+2025-10-23 21:44:57,717 - INFO -   Student 27 (Avinash Kumar, CGPA: 8.77) -> AM (Preference 1)
+2025-10-23 21:44:57,718 - INFO -   Student 28 (Anoop Kumar Panday, CGPA: 8.76) -> ST (Preference 4)
+2025-10-23 21:44:57,720 - INFO -   Student 29 (Dileep Kumar Koshley, CGPA: 8.75) -> SM (Preference 3)
+2025-10-23 21:44:57,721 - INFO -   Student 30 (Alok Kumar, CGPA: 8.74) -> MA (Preference 2)
+2025-10-23 21:44:57,722 - INFO -   Student 31 (Jayant Saini, CGPA: 8.72) -> SKD (Preference 2)
+2025-10-23 21:44:57,722 - INFO -   Student 32 (Chintha Tejeswar Reddy, CGPA: 8.39) -> RH (Preference 3)
+2025-10-23 21:44:57,724 - INFO -   Student 33 (Rajesh Kumar Gautam, CGPA: 8.38) -> AR (Preference 1)
+2025-10-23 21:44:57,725 - INFO -   Student 34 (Debi Pada Jana, CGPA: 8.31) -> SS (Preference 6)
+2025-10-23 21:44:57,727 - INFO -   Student 35 (Sneha Kumari, CGPA: 8.29) -> RS (Preference 3)
+2025-10-23 21:44:57,728 - INFO - 
+Cycle 2 summary: 18 faculties allocated
+2025-10-23 21:44:57,729 - INFO - 
+================================================================================
+2025-10-23 21:44:57,731 - INFO - CYCLE 3/5
+2025-10-23 21:44:57,732 - INFO - ================================================================================
+2025-10-23 21:44:57,734 - INFO - Students in this cycle: indices 36 to 53
+2025-10-23 21:44:57,736 - INFO -   Student 36 (Md Akhlaqur Rahman, CGPA: 8.17) -> JM (Preference 1)
+2025-10-23 21:44:57,737 - INFO -   Student 37 (Ravindra Kumar, CGPA: 8.10) -> SK (Preference 1)
+2025-10-23 21:44:57,738 - INFO -   Student 38 (V Naresh Kumar, CGPA: 8.01) -> RM2 (Preference 1)
+2025-10-23 21:44:57,739 - INFO -   Student 39 (Nilanjan Kundu, CGPA: 8.00) -> SKM (Preference 1)
+2025-10-23 21:44:57,740 - INFO -   Student 40 (Ram Krishna Verma, CGPA: 7.98) -> AE (Preference 1)
+2025-10-23 21:44:57,740 - INFO -   Student 41 (Aryasomayajula Mrunal Krishna Sarma, CGPA: 7.98) -> ABM (Preference 1)
+2025-10-23 21:44:57,741 - INFO -   Student 42 (Jay Bhushan, CGPA: 7.97) -> RS (Preference 2)
+2025-10-23 21:44:57,742 - INFO -   Student 43 (Debashis Bhowmik, CGPA: 7.86) -> RH (Preference 2)
+2025-10-23 21:44:57,744 - INFO -   Student 44 (Rahul Dilare, CGPA: 7.75) -> SM (Preference 1)
+2025-10-23 21:44:57,749 - INFO -   Student 45 (Palash Sarkar, CGPA: 7.54) -> SKD (Preference 1)
+2025-10-23 21:44:57,751 - INFO -   Student 46 (Ayush Inani, CGPA: 7.52) -> MA (Preference 1)
+2025-10-23 21:44:57,753 - INFO -   Student 47 (Shikhar Choudhary, CGPA: 7.31) -> AR (Preference 2)
+2025-10-23 21:44:57,754 - INFO -   Student 48 (Ajeet Kumar, CGPA: 7.31) -> RM (Preference 3)
+2025-10-23 21:44:57,756 - INFO -   Student 49 (Chandan Kumar Jha, CGPA: 7.24) -> SS (Preference 2)
+2025-10-23 21:44:57,757 - INFO -   Student 50 (Kartick Chandra Seth, CGPA: 7.23) -> JC (Preference 4)
+2025-10-23 21:44:57,762 - INFO -   Student 51 (Bhavesh Mendhekar, CGPA: 7.11) -> AM (Preference 7)
+2025-10-23 21:44:57,766 - INFO -   Student 52 (Sarim Kamal, CGPA: 7.08) -> CA (Preference 5)
+2025-10-23 21:44:57,768 - INFO -   Student 53 (Ashish Kumar Singh, CGPA: 6.99) -> ST (Preference 12)
+2025-10-23 21:44:57,770 - INFO - 
+Cycle 3 summary: 18 faculties allocated
+2025-10-23 21:44:57,770 - INFO - 
+================================================================================
+2025-10-23 21:44:57,771 - INFO - CYCLE 4/5
+2025-10-23 21:44:57,771 - INFO - ================================================================================
+2025-10-23 21:44:57,772 - INFO - Students in this cycle: indices 54 to 71
+2025-10-23 21:44:57,773 - INFO -   Student 54 (Soma Seth Duley, CGPA: 6.98) -> RM (Preference 1)
+2025-10-23 21:44:57,774 - INFO -   Student 55 (Vishal Rawat, CGPA: 6.94) -> MA (Preference 1)
+2025-10-23 21:44:57,774 - INFO -   Student 56 (Abhimanyu Singh Rathore, CGPA: 6.92) -> SKM (Preference 1)
+2025-10-23 21:44:57,775 - INFO -   Student 57 (Roshni Chakraborty, CGPA: 6.91) -> SM (Preference 1)
+2025-10-23 21:44:57,777 - INFO -   Student 58 (Sayantan Mitra, CGPA: 6.81) -> AE (Preference 1)
+2025-10-23 21:44:57,780 - INFO -   Student 59 (Aditya Keshari, CGPA: 6.75) -> AM (Preference 2)
+2025-10-23 21:44:57,783 - INFO -   Student 60 (Sreenath P R, CGPA: 6.75) -> RM2 (Preference 1)
+2025-10-23 21:44:57,784 - INFO -   Student 61 (Arjun Bhandare Balachandra, CGPA: 6.74) -> CA (Preference 1)
+2025-10-23 21:44:57,785 - INFO -   Student 62 (Busireddy Venkat Dheeraj Reddy, CGPA: 6.74) -> ABM (Preference 1)
+2025-10-23 21:44:57,785 - INFO -   Student 63 (Amrit Raj, CGPA: 6.73) -> JC (Preference 1)
+2025-10-23 21:44:57,787 - INFO -   Student 64 (Mende Akshay, CGPA: 6.67) -> SKD (Preference 2)
+2025-10-23 21:44:57,788 - INFO -   Student 65 (Karan Kumar Gupta, CGPA: 6.66) -> RS (Preference 4)
+2025-10-23 21:44:57,789 - INFO -   Student 66 (Deba Prasad Dash, CGPA: 6.65) -> ST (Preference 2)
+2025-10-23 21:44:57,791 - INFO -   Student 67 (Ashish Kumar, CGPA: 6.60) -> SK (Preference 5)
+2025-10-23 21:44:57,792 - INFO -   Student 68 (Devansh Jaiswal, CGPA: 6.60) -> JM (Preference 4)
+2025-10-23 21:44:57,795 - INFO -   Student 69 (Ritesh Kumar, CGPA: 6.55) -> SS (Preference 2)
+2025-10-23 21:44:57,801 - INFO -   Student 70 (Anita Chandra, CGPA: 6.55) -> AR (Preference 15)
+2025-10-23 21:44:57,802 - INFO -   Student 71 (Sanjib Saikia, CGPA: 6.34) -> RH (Preference 7)
+2025-10-23 21:44:57,803 - INFO - 
+Cycle 4 summary: 18 faculties allocated
+2025-10-23 21:44:57,803 - INFO - 
+================================================================================
+2025-10-23 21:44:57,804 - INFO - CYCLE 5/5
+2025-10-23 21:44:57,804 - INFO - ================================================================================
+2025-10-23 21:44:57,805 - INFO - Students in this cycle: indices 72 to 89
+2025-10-23 21:44:57,805 - INFO -   Student 72 (Suryakanta Panda, CGPA: 6.32) -> SKM (Preference 1)
+2025-10-23 21:44:57,806 - INFO -   Student 73 (Gaurav Sundaram, CGPA: 6.32) -> AR (Preference 1)
+2025-10-23 21:44:57,808 - INFO -   Student 74 (Shadab Rabbani, CGPA: 6.29) -> JC (Preference 2)
+2025-10-23 21:44:57,809 - INFO -   Student 75 (Sukanta Sen, CGPA: 6.26) -> AE (Preference 1)
+2025-10-23 21:44:57,811 - INFO -   Student 76 (Ashish Kumar, CGPA: 6.21) -> RH (Preference 1)
+2025-10-23 21:44:57,816 - INFO -   Student 77 (Kandadi Venu Madhava, CGPA: 5.97) -> ST (Preference 2)
+2025-10-23 21:44:57,818 - INFO -   Student 78 (Mantavya Agarwal, CGPA: 5.91) -> SK (Preference 1)
+2025-10-23 21:44:57,820 - INFO -   Student 79 (Aswin Krishna, CGPA: 5.86) -> RS (Preference 1)
+2025-10-23 21:44:57,821 - INFO -   Student 80 (Shibsankar Das, CGPA: 5.84) -> ABM (Preference 2)
+2025-10-23 21:44:57,822 - INFO -   Student 81 (Alok Baranwal, CGPA: 5.81) -> RM (Preference 1)
+2025-10-23 21:44:57,823 - INFO -   Student 82 (Khushwant Singh, CGPA: 5.78) -> MA (Preference 1)
+2025-10-23 21:44:57,824 - INFO -   Student 83 (Mausam Chouksey, CGPA: 5.76) -> CA (Preference 1)
+2025-10-23 21:44:57,825 - INFO -   Student 84 (Gour Mohan Das, CGPA: 5.67) -> RM2 (Preference 1)
+2025-10-23 21:44:57,830 - INFO -   Student 85 (Sushant Kumar, CGPA: 5.62) -> JM (Preference 1)
+2025-10-23 21:44:57,834 - INFO -   Student 86 (Pramit Biswas, CGPA: 5.62) -> SS (Preference 5)
+2025-10-23 21:44:57,835 - INFO -   Student 87 (Saurabh Dubey, CGPA: 5.62) -> AM (Preference 2)
+2025-10-23 21:44:57,839 - INFO -   Student 88 (Md Shamim Shah, CGPA: 5.57) -> SKD (Preference 13)
+2025-10-23 21:44:57,842 - INFO -   Student 89 (Anirban Chakraborty, CGPA: 5.57) -> SM (Preference 16)
+2025-10-23 21:44:57,843 - INFO - 
+Cycle 5 summary: 18 faculties allocated
+2025-10-23 21:44:57,845 - INFO - 
+Creating allocation output
+2025-10-23 21:44:57,852 - INFO - Creating preference statistics
+2025-10-23 21:44:57,856 - INFO - 
+================================================================================
+2025-10-23 21:44:57,856 - INFO - ALLOCATION SUMMARY
+2025-10-23 21:44:57,857 - INFO - ================================================================================
+2025-10-23 21:44:57,857 - INFO - Total students: 90
+2025-10-23 21:44:57,857 - INFO - Allocated students: 90
+2025-10-23 21:44:57,858 - INFO - Unallocated students: 0
+2025-10-23 21:44:57,863 - INFO - 
+Students per faculty:
+2025-10-23 21:44:57,865 - INFO -   ABM: 5 students
+2025-10-23 21:44:57,866 - INFO -   AE: 5 students
+2025-10-23 21:44:57,867 - INFO -   AM: 5 students
+2025-10-23 21:44:57,867 - INFO -   AR: 5 students
+2025-10-23 21:44:57,868 - INFO -   CA: 5 students
+2025-10-23 21:44:57,868 - INFO -   JC: 5 students
+2025-10-23 21:44:57,869 - INFO -   JM: 5 students
+2025-10-23 21:44:57,869 - INFO -   MA: 5 students
+2025-10-23 21:44:57,870 - INFO -   RH: 5 students
+2025-10-23 21:44:57,870 - INFO -   RM: 5 students
+2025-10-23 21:44:57,871 - INFO -   RM2: 5 students
+2025-10-23 21:44:57,871 - INFO -   RS: 5 students
+2025-10-23 21:44:57,871 - INFO -   SK: 5 students
+2025-10-23 21:44:57,872 - INFO -   SKD: 5 students
+2025-10-23 21:44:57,872 - INFO -   SKM: 5 students
+2025-10-23 21:44:57,873 - INFO -   SM: 5 students
+2025-10-23 21:44:57,873 - INFO -   SS: 5 students
+2025-10-23 21:44:57,874 - INFO -   ST: 5 students
+2025-10-23 21:44:58,097 - INFO - Allocation completed successfully
+2025-10-23 21:49:35,018 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:49:40,701 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:49:41,395 - INFO - Starting allocation process
+2025-10-23 21:49:41,396 - INFO - Reading input file: temp_input.csv
+2025-10-23 21:49:41,404 - INFO - Loaded 90 students
+2025-10-23 21:49:41,405 - INFO - Detected 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-23 21:49:41,406 - INFO - Sorting students by CGPA in descending order
+2025-10-23 21:49:41,409 - INFO - Total students: 90
+2025-10-23 21:49:41,410 - INFO - Complete cycles: 5
+2025-10-23 21:49:41,411 - INFO - Remaining students: 0
+2025-10-23 21:49:41,412 - INFO - Starting allocation process using mod n round-robin algorithm
+2025-10-23 21:49:41,412 - INFO - 
+================================================================================
+2025-10-23 21:49:41,413 - INFO - CYCLE 1/5
+2025-10-23 21:49:41,414 - INFO - ================================================================================
+2025-10-23 21:49:41,415 - INFO - Students in this cycle: indices 0 to 17
+2025-10-23 21:49:41,418 - INFO -   Student 0 (Md Shad Akhtar, CGPA: 9.71) -> RM (Preference 1)
+2025-10-23 21:49:41,422 - INFO -   Student 1 (Subhajit Dey, CGPA: 9.69) -> RM2 (Preference 1)
+2025-10-23 21:49:41,425 - INFO -   Student 2 (August Dubey, CGPA: 9.62) -> RS (Preference 1)
+2025-10-23 21:49:41,427 - INFO -   Student 3 (Prasanna Duley, CGPA: 9.58) -> SKD (Preference 1)
+2025-10-23 21:49:41,428 - INFO -   Student 4 (Neelam, CGPA: 9.53) -> CA (Preference 1)
+2025-10-23 21:49:41,429 - INFO -   Student 5 (Sujay Kumar Saha, CGPA: 9.49) -> AM (Preference 2)
+2025-10-23 21:49:41,430 - INFO -   Student 6 (Rinku Kumar Gouda, CGPA: 9.48) -> JM (Preference 1)
+2025-10-23 21:49:41,430 - INFO -   Student 7 (Barun Halder, CGPA: 9.48) -> ABM (Preference 1)
+2025-10-23 21:49:41,433 - INFO -   Student 8 (Niraj Kumar, CGPA: 9.44) -> AE (Preference 2)
+2025-10-23 21:49:41,434 - INFO -   Student 9 (Biswajyoti Mukherjee, CGPA: 9.43) -> AR (Preference 2)
+2025-10-23 21:49:41,436 - INFO -   Student 10 (Shubhendu Yadav, CGPA: 9.36) -> SKM (Preference 1)
+2025-10-23 21:49:41,437 - INFO -   Student 11 (Amulya Kumar Mahto, CGPA: 9.36) -> MA (Preference 1)
+2025-10-23 21:49:41,439 - INFO -   Student 12 (Mohammad Irshad, CGPA: 9.34) -> SM (Preference 5)
+2025-10-23 21:49:41,441 - INFO -   Student 13 (Vikash Kumar Rai, CGPA: 9.30) -> SS (Preference 4)
+2025-10-23 21:49:41,441 - INFO -   Student 14 (Angshuman Das, CGPA: 9.29) -> SK (Preference 2)
+2025-10-23 21:49:41,441 - INFO -   Student 15 (Rishabh Shukla, CGPA: 9.26) -> JC (Preference 2)
+2025-10-23 21:49:41,442 - INFO -   Student 16 (Bathina Chaitanya, CGPA: 9.23) -> ST (Preference 6)
+2025-10-23 21:49:41,444 - INFO -   Student 17 (Nagudala Manoj Kumar, CGPA: 9.15) -> RH (Preference 17)
+2025-10-23 21:49:41,444 - INFO - 
+Cycle 1 summary: 18 faculties allocated
+2025-10-23 21:49:41,444 - INFO - 
+================================================================================
+2025-10-23 21:49:41,446 - INFO - CYCLE 2/5
+2025-10-23 21:49:41,446 - INFO - ================================================================================
+2025-10-23 21:49:41,446 - INFO - Students in this cycle: indices 18 to 35
+2025-10-23 21:49:41,447 - INFO -   Student 18 (Manik Manohar, CGPA: 9.13) -> RM (Preference 1)
+2025-10-23 21:49:41,448 - INFO -   Student 19 (Lagen Kumar Pradhan, CGPA: 9.13) -> SKM (Preference 1)
+2025-10-23 21:49:41,449 - INFO -   Student 20 (Miss Mukta Shaw, CGPA: 9.12) -> SK (Preference 1)
+2025-10-23 21:49:41,450 - INFO -   Student 21 (Janjarla Rajashekar, CGPA: 9.12) -> JM (Preference 1)
+2025-10-23 21:49:41,452 - INFO -   Student 22 (Rangala Tejeswar Reddy, CGPA: 9.06) -> JC (Preference 1)
+2025-10-23 21:49:41,454 - INFO -   Student 23 (Abhishek Sunil Talele, CGPA: 8.96) -> CA (Preference 1)
+2025-10-23 21:49:41,455 - INFO -   Student 24 (Saket, CGPA: 8.89) -> ABM (Preference 1)
+2025-10-23 21:49:41,456 - INFO -   Student 25 (Chandan Gupta, CGPA: 8.86) -> RM2 (Preference 1)
+2025-10-23 21:49:41,457 - INFO -   Student 26 (Mallika Rani Seth, CGPA: 8.79) -> AE (Preference 1)
+2025-10-23 21:49:41,457 - INFO -   Student 27 (Avinash Kumar, CGPA: 8.77) -> AM (Preference 1)
+2025-10-23 21:49:41,458 - INFO -   Student 28 (Anoop Kumar Panday, CGPA: 8.76) -> ST (Preference 4)
+2025-10-23 21:49:41,459 - INFO -   Student 29 (Dileep Kumar Koshley, CGPA: 8.75) -> SM (Preference 3)
+2025-10-23 21:49:41,459 - INFO -   Student 30 (Alok Kumar, CGPA: 8.74) -> MA (Preference 2)
+2025-10-23 21:49:41,460 - INFO -   Student 31 (Jayant Saini, CGPA: 8.72) -> SKD (Preference 2)
+2025-10-23 21:49:41,462 - INFO -   Student 32 (Chintha Tejeswar Reddy, CGPA: 8.39) -> RH (Preference 3)
+2025-10-23 21:49:41,463 - INFO -   Student 33 (Rajesh Kumar Gautam, CGPA: 8.38) -> AR (Preference 1)
+2025-10-23 21:49:41,464 - INFO -   Student 34 (Debi Pada Jana, CGPA: 8.31) -> SS (Preference 6)
+2025-10-23 21:49:41,464 - INFO -   Student 35 (Sneha Kumari, CGPA: 8.29) -> RS (Preference 3)
+2025-10-23 21:49:41,465 - INFO - 
+Cycle 2 summary: 18 faculties allocated
+2025-10-23 21:49:41,466 - INFO - 
+================================================================================
+2025-10-23 21:49:41,466 - INFO - CYCLE 3/5
+2025-10-23 21:49:41,467 - INFO - ================================================================================
+2025-10-23 21:49:41,467 - INFO - Students in this cycle: indices 36 to 53
+2025-10-23 21:49:41,469 - INFO -   Student 36 (Md Akhlaqur Rahman, CGPA: 8.17) -> JM (Preference 1)
+2025-10-23 21:49:41,469 - INFO -   Student 37 (Ravindra Kumar, CGPA: 8.10) -> SK (Preference 1)
+2025-10-23 21:49:41,471 - INFO -   Student 38 (V Naresh Kumar, CGPA: 8.01) -> RM2 (Preference 1)
+2025-10-23 21:49:41,472 - INFO -   Student 39 (Nilanjan Kundu, CGPA: 8.00) -> SKM (Preference 1)
+2025-10-23 21:49:41,472 - INFO -   Student 40 (Ram Krishna Verma, CGPA: 7.98) -> AE (Preference 1)
+2025-10-23 21:49:41,473 - INFO -   Student 41 (Aryasomayajula Mrunal Krishna Sarma, CGPA: 7.98) -> ABM (Preference 1)
+2025-10-23 21:49:41,473 - INFO -   Student 42 (Jay Bhushan, CGPA: 7.97) -> RS (Preference 2)
+2025-10-23 21:49:41,474 - INFO -   Student 43 (Debashis Bhowmik, CGPA: 7.86) -> RH (Preference 2)
+2025-10-23 21:49:41,474 - INFO -   Student 44 (Rahul Dilare, CGPA: 7.75) -> SM (Preference 1)
+2025-10-23 21:49:41,475 - INFO -   Student 45 (Palash Sarkar, CGPA: 7.54) -> SKD (Preference 1)
+2025-10-23 21:49:41,475 - INFO -   Student 46 (Ayush Inani, CGPA: 7.52) -> MA (Preference 1)
+2025-10-23 21:49:41,476 - INFO -   Student 47 (Shikhar Choudhary, CGPA: 7.31) -> AR (Preference 2)
+2025-10-23 21:49:41,476 - INFO -   Student 48 (Ajeet Kumar, CGPA: 7.31) -> RM (Preference 3)
+2025-10-23 21:49:41,477 - INFO -   Student 49 (Chandan Kumar Jha, CGPA: 7.24) -> SS (Preference 2)
+2025-10-23 21:49:41,477 - INFO -   Student 50 (Kartick Chandra Seth, CGPA: 7.23) -> JC (Preference 4)
+2025-10-23 21:49:41,478 - INFO -   Student 51 (Bhavesh Mendhekar, CGPA: 7.11) -> AM (Preference 7)
+2025-10-23 21:49:41,479 - INFO -   Student 52 (Sarim Kamal, CGPA: 7.08) -> CA (Preference 5)
+2025-10-23 21:49:41,480 - INFO -   Student 53 (Ashish Kumar Singh, CGPA: 6.99) -> ST (Preference 12)
+2025-10-23 21:49:41,480 - INFO - 
+Cycle 3 summary: 18 faculties allocated
+2025-10-23 21:49:41,480 - INFO - 
+================================================================================
+2025-10-23 21:49:41,481 - INFO - CYCLE 4/5
+2025-10-23 21:49:41,481 - INFO - ================================================================================
+2025-10-23 21:49:41,483 - INFO - Students in this cycle: indices 54 to 71
+2025-10-23 21:49:41,484 - INFO -   Student 54 (Soma Seth Duley, CGPA: 6.98) -> RM (Preference 1)
+2025-10-23 21:49:41,485 - INFO -   Student 55 (Vishal Rawat, CGPA: 6.94) -> MA (Preference 1)
+2025-10-23 21:49:41,486 - INFO -   Student 56 (Abhimanyu Singh Rathore, CGPA: 6.92) -> SKM (Preference 1)
+2025-10-23 21:49:41,487 - INFO -   Student 57 (Roshni Chakraborty, CGPA: 6.91) -> SM (Preference 1)
+2025-10-23 21:49:41,488 - INFO -   Student 58 (Sayantan Mitra, CGPA: 6.81) -> AE (Preference 1)
+2025-10-23 21:49:41,489 - INFO -   Student 59 (Aditya Keshari, CGPA: 6.75) -> AM (Preference 2)
+2025-10-23 21:49:41,489 - INFO -   Student 60 (Sreenath P R, CGPA: 6.75) -> RM2 (Preference 1)
+2025-10-23 21:49:41,490 - INFO -   Student 61 (Arjun Bhandare Balachandra, CGPA: 6.74) -> CA (Preference 1)
+2025-10-23 21:49:41,490 - INFO -   Student 62 (Busireddy Venkat Dheeraj Reddy, CGPA: 6.74) -> ABM (Preference 1)
+2025-10-23 21:49:41,490 - INFO -   Student 63 (Amrit Raj, CGPA: 6.73) -> JC (Preference 1)
+2025-10-23 21:49:41,492 - INFO -   Student 64 (Mende Akshay, CGPA: 6.67) -> SKD (Preference 2)
+2025-10-23 21:49:41,492 - INFO -   Student 65 (Karan Kumar Gupta, CGPA: 6.66) -> RS (Preference 4)
+2025-10-23 21:49:41,493 - INFO -   Student 66 (Deba Prasad Dash, CGPA: 6.65) -> ST (Preference 2)
+2025-10-23 21:49:41,494 - INFO -   Student 67 (Ashish Kumar, CGPA: 6.60) -> SK (Preference 5)
+2025-10-23 21:49:41,495 - INFO -   Student 68 (Devansh Jaiswal, CGPA: 6.60) -> JM (Preference 4)
+2025-10-23 21:49:41,495 - INFO -   Student 69 (Ritesh Kumar, CGPA: 6.55) -> SS (Preference 2)
+2025-10-23 21:49:41,496 - INFO -   Student 70 (Anita Chandra, CGPA: 6.55) -> AR (Preference 15)
+2025-10-23 21:49:41,496 - INFO -   Student 71 (Sanjib Saikia, CGPA: 6.34) -> RH (Preference 7)
+2025-10-23 21:49:41,497 - INFO - 
+Cycle 4 summary: 18 faculties allocated
+2025-10-23 21:49:41,497 - INFO - 
+================================================================================
+2025-10-23 21:49:41,498 - INFO - CYCLE 5/5
+2025-10-23 21:49:41,499 - INFO - ================================================================================
+2025-10-23 21:49:41,499 - INFO - Students in this cycle: indices 72 to 89
+2025-10-23 21:49:41,500 - INFO -   Student 72 (Suryakanta Panda, CGPA: 6.32) -> SKM (Preference 1)
+2025-10-23 21:49:41,501 - INFO -   Student 73 (Gaurav Sundaram, CGPA: 6.32) -> AR (Preference 1)
+2025-10-23 21:49:41,503 - INFO -   Student 74 (Shadab Rabbani, CGPA: 6.29) -> JC (Preference 2)
+2025-10-23 21:49:41,504 - INFO -   Student 75 (Sukanta Sen, CGPA: 6.26) -> AE (Preference 1)
+2025-10-23 21:49:41,505 - INFO -   Student 76 (Ashish Kumar, CGPA: 6.21) -> RH (Preference 1)
+2025-10-23 21:49:41,506 - INFO -   Student 77 (Kandadi Venu Madhava, CGPA: 5.97) -> ST (Preference 2)
+2025-10-23 21:49:41,506 - INFO -   Student 78 (Mantavya Agarwal, CGPA: 5.91) -> SK (Preference 1)
+2025-10-23 21:49:41,507 - INFO -   Student 79 (Aswin Krishna, CGPA: 5.86) -> RS (Preference 1)
+2025-10-23 21:49:41,507 - INFO -   Student 80 (Shibsankar Das, CGPA: 5.84) -> ABM (Preference 2)
+2025-10-23 21:49:41,508 - INFO -   Student 81 (Alok Baranwal, CGPA: 5.81) -> RM (Preference 1)
+2025-10-23 21:49:41,508 - INFO -   Student 82 (Khushwant Singh, CGPA: 5.78) -> MA (Preference 1)
+2025-10-23 21:49:41,508 - INFO -   Student 83 (Mausam Chouksey, CGPA: 5.76) -> CA (Preference 1)
+2025-10-23 21:49:41,509 - INFO -   Student 84 (Gour Mohan Das, CGPA: 5.67) -> RM2 (Preference 1)
+2025-10-23 21:49:41,510 - INFO -   Student 85 (Sushant Kumar, CGPA: 5.62) -> JM (Preference 1)
+2025-10-23 21:49:41,510 - INFO -   Student 86 (Pramit Biswas, CGPA: 5.62) -> SS (Preference 5)
+2025-10-23 21:49:41,511 - INFO -   Student 87 (Saurabh Dubey, CGPA: 5.62) -> AM (Preference 2)
+2025-10-23 21:49:41,513 - INFO -   Student 88 (Md Shamim Shah, CGPA: 5.57) -> SKD (Preference 13)
+2025-10-23 21:49:41,514 - INFO -   Student 89 (Anirban Chakraborty, CGPA: 5.57) -> SM (Preference 16)
+2025-10-23 21:49:41,514 - INFO - 
+Cycle 5 summary: 18 faculties allocated
+2025-10-23 21:49:41,515 - INFO - 
+Creating allocation output
+2025-10-23 21:49:41,518 - INFO - Creating preference statistics
+2025-10-23 21:49:41,521 - INFO - 
+================================================================================
+2025-10-23 21:49:41,521 - INFO - ALLOCATION SUMMARY
+2025-10-23 21:49:41,521 - INFO - ================================================================================
+2025-10-23 21:49:41,523 - INFO - Total students: 90
+2025-10-23 21:49:41,523 - INFO - Allocated students: 90
+2025-10-23 21:49:41,523 - INFO - Unallocated students: 0
+2025-10-23 21:49:41,524 - INFO - 
+Students per faculty:
+2025-10-23 21:49:41,525 - INFO -   ABM: 5 students
+2025-10-23 21:49:41,525 - INFO -   AE: 5 students
+2025-10-23 21:49:41,525 - INFO -   AM: 5 students
+2025-10-23 21:49:41,526 - INFO -   AR: 5 students
+2025-10-23 21:49:41,526 - INFO -   CA: 5 students
+2025-10-23 21:49:41,526 - INFO -   JC: 5 students
+2025-10-23 21:49:41,526 - INFO -   JM: 5 students
+2025-10-23 21:49:41,527 - INFO -   MA: 5 students
+2025-10-23 21:49:41,527 - INFO -   RH: 5 students
+2025-10-23 21:49:41,527 - INFO -   RM: 5 students
+2025-10-23 21:49:41,528 - INFO -   RM2: 5 students
+2025-10-23 21:49:41,528 - INFO -   RS: 5 students
+2025-10-23 21:49:41,529 - INFO -   SK: 5 students
+2025-10-23 21:49:41,529 - INFO -   SKD: 5 students
+2025-10-23 21:49:41,529 - INFO -   SKM: 5 students
+2025-10-23 21:49:41,529 - INFO -   SM: 5 students
+2025-10-23 21:49:41,530 - INFO -   SS: 5 students
+2025-10-23 21:49:41,530 - INFO -   ST: 5 students
+2025-10-23 21:49:41,747 - INFO - Allocation completed successfully
+2025-10-23 21:51:17,184 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:51:27,629 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:51:45,352 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:51:47,385 - INFO - File uploaded: input_btp_mtp_allocation.csv
+2025-10-23 21:51:48,100 - INFO - Starting allocation process
+2025-10-23 21:51:48,101 - INFO - Reading input file: temp_input.csv
+2025-10-23 21:51:48,106 - INFO - Loaded 90 students
+2025-10-23 21:51:48,107 - INFO - Detected 18 faculties: ['ABM', 'AE', 'AM', 'AR', 'CA', 'JC', 'JM', 'MA', 'RH', 'RM', 'RM2', 'RS', 'SK', 'SKD', 'SKM', 'SM', 'SS', 'ST']
+2025-10-23 21:51:48,107 - INFO - Sorting students by CGPA in descending order
+2025-10-23 21:51:48,109 - INFO - Total students: 90
+2025-10-23 21:51:48,109 - INFO - Complete cycles: 5
+2025-10-23 21:51:48,110 - INFO - Remaining students: 0
+2025-10-23 21:51:48,110 - INFO - Starting allocation process using mod n round-robin algorithm
+2025-10-23 21:51:48,111 - INFO - 
+================================================================================
+2025-10-23 21:51:48,111 - INFO - CYCLE 1/5
+2025-10-23 21:51:48,112 - INFO - ================================================================================
+2025-10-23 21:51:48,112 - INFO - Students in this cycle: indices 0 to 17
+2025-10-23 21:51:48,113 - INFO -   Student 0 (Md Shad Akhtar, CGPA: 9.71) -> RM (Preference 1)
+2025-10-23 21:51:48,115 - INFO -   Student 1 (Subhajit Dey, CGPA: 9.69) -> RM2 (Preference 1)
+2025-10-23 21:51:48,115 - INFO -   Student 2 (August Dubey, CGPA: 9.62) -> RS (Preference 1)
+2025-10-23 21:51:48,116 - INFO -   Student 3 (Prasanna Duley, CGPA: 9.58) -> SKD (Preference 1)
+2025-10-23 21:51:48,118 - INFO -   Student 4 (Neelam, CGPA: 9.53) -> CA (Preference 1)
+2025-10-23 21:51:48,121 - INFO -   Student 5 (Sujay Kumar Saha, CGPA: 9.49) -> AM (Preference 2)
+2025-10-23 21:51:48,122 - INFO -   Student 6 (Rinku Kumar Gouda, CGPA: 9.48) -> JM (Preference 1)
+2025-10-23 21:51:48,123 - INFO -   Student 7 (Barun Halder, CGPA: 9.48) -> ABM (Preference 1)
+2025-10-23 21:51:48,124 - INFO -   Student 8 (Niraj Kumar, CGPA: 9.44) -> AE (Preference 2)
+2025-10-23 21:51:48,125 - INFO -   Student 9 (Biswajyoti Mukherjee, CGPA: 9.43) -> AR (Preference 2)
+2025-10-23 21:51:48,126 - INFO -   Student 10 (Shubhendu Yadav, CGPA: 9.36) -> SKM (Preference 1)
+2025-10-23 21:51:48,126 - INFO -   Student 11 (Amulya Kumar Mahto, CGPA: 9.36) -> MA (Preference 1)
+2025-10-23 21:51:48,127 - INFO -   Student 12 (Mohammad Irshad, CGPA: 9.34) -> SM (Preference 5)
+2025-10-23 21:51:48,128 - INFO -   Student 13 (Vikash Kumar Rai, CGPA: 9.30) -> SS (Preference 4)
+2025-10-23 21:51:48,129 - INFO -   Student 14 (Angshuman Das, CGPA: 9.29) -> SK (Preference 2)
+2025-10-23 21:51:48,129 - INFO -   Student 15 (Rishabh Shukla, CGPA: 9.26) -> JC (Preference 2)
+2025-10-23 21:51:48,131 - INFO -   Student 16 (Bathina Chaitanya, CGPA: 9.23) -> ST (Preference 6)
+2025-10-23 21:51:48,132 - INFO -   Student 17 (Nagudala Manoj Kumar, CGPA: 9.15) -> RH (Preference 17)
+2025-10-23 21:51:48,133 - INFO - 
+Cycle 1 summary: 18 faculties allocated
+2025-10-23 21:51:48,134 - INFO - 
+================================================================================
+2025-10-23 21:51:48,134 - INFO - CYCLE 2/5
+2025-10-23 21:51:48,135 - INFO - ================================================================================
+2025-10-23 21:51:48,137 - INFO - Students in this cycle: indices 18 to 35
+2025-10-23 21:51:48,139 - INFO -   Student 18 (Manik Manohar, CGPA: 9.13) -> RM (Preference 1)
+2025-10-23 21:51:48,140 - INFO -   Student 19 (Lagen Kumar Pradhan, CGPA: 9.13) -> SKM (Preference 1)
+2025-10-23 21:51:48,141 - INFO -   Student 20 (Miss Mukta Shaw, CGPA: 9.12) -> SK (Preference 1)
+2025-10-23 21:51:48,142 - INFO -   Student 21 (Janjarla Rajashekar, CGPA: 9.12) -> JM (Preference 1)
+2025-10-23 21:51:48,142 - INFO -   Student 22 (Rangala Tejeswar Reddy, CGPA: 9.06) -> JC (Preference 1)
+2025-10-23 21:51:48,143 - INFO -   Student 23 (Abhishek Sunil Talele, CGPA: 8.96) -> CA (Preference 1)
+2025-10-23 21:51:48,144 - INFO -   Student 24 (Saket, CGPA: 8.89) -> ABM (Preference 1)
+2025-10-23 21:51:48,145 - INFO -   Student 25 (Chandan Gupta, CGPA: 8.86) -> RM2 (Preference 1)
+2025-10-23 21:51:48,145 - INFO -   Student 26 (Mallika Rani Seth, CGPA: 8.79) -> AE (Preference 1)
+2025-10-23 21:51:48,146 - INFO -   Student 27 (Avinash Kumar, CGPA: 8.77) -> AM (Preference 1)
+2025-10-23 21:51:48,147 - INFO -   Student 28 (Anoop Kumar Panday, CGPA: 8.76) -> ST (Preference 4)
+2025-10-23 21:51:48,148 - INFO -   Student 29 (Dileep Kumar Koshley, CGPA: 8.75) -> SM (Preference 3)
+2025-10-23 21:51:48,148 - INFO -   Student 30 (Alok Kumar, CGPA: 8.74) -> MA (Preference 2)
+2025-10-23 21:51:48,149 - INFO -   Student 31 (Jayant Saini, CGPA: 8.72) -> SKD (Preference 2)
+2025-10-23 21:51:48,150 - INFO -   Student 32 (Chintha Tejeswar Reddy, CGPA: 8.39) -> RH (Preference 3)
+2025-10-23 21:51:48,151 - INFO -   Student 33 (Rajesh Kumar Gautam, CGPA: 8.38) -> AR (Preference 1)
+2025-10-23 21:51:48,155 - INFO -   Student 34 (Debi Pada Jana, CGPA: 8.31) -> SS (Preference 6)
+2025-10-23 21:51:48,157 - INFO -   Student 35 (Sneha Kumari, CGPA: 8.29) -> RS (Preference 3)
+2025-10-23 21:51:48,157 - INFO - 
+Cycle 2 summary: 18 faculties allocated
+2025-10-23 21:51:48,158 - INFO - 
+================================================================================
+2025-10-23 21:51:48,158 - INFO - CYCLE 3/5
+2025-10-23 21:51:48,158 - INFO - ================================================================================
+2025-10-23 21:51:48,159 - INFO - Students in this cycle: indices 36 to 53
+2025-10-23 21:51:48,159 - INFO -   Student 36 (Md Akhlaqur Rahman, CGPA: 8.17) -> JM (Preference 1)
+2025-10-23 21:51:48,160 - INFO -   Student 37 (Ravindra Kumar, CGPA: 8.10) -> SK (Preference 1)
+2025-10-23 21:51:48,160 - INFO -   Student 38 (V Naresh Kumar, CGPA: 8.01) -> RM2 (Preference 1)
+2025-10-23 21:51:48,161 - INFO -   Student 39 (Nilanjan Kundu, CGPA: 8.00) -> SKM (Preference 1)
+2025-10-23 21:51:48,161 - INFO -   Student 40 (Ram Krishna Verma, CGPA: 7.98) -> AE (Preference 1)
+2025-10-23 21:51:48,162 - INFO -   Student 41 (Aryasomayajula Mrunal Krishna Sarma, CGPA: 7.98) -> ABM (Preference 1)
+2025-10-23 21:51:48,162 - INFO -   Student 42 (Jay Bhushan, CGPA: 7.97) -> RS (Preference 2)
+2025-10-23 21:51:48,163 - INFO -   Student 43 (Debashis Bhowmik, CGPA: 7.86) -> RH (Preference 2)
+2025-10-23 21:51:48,163 - INFO -   Student 44 (Rahul Dilare, CGPA: 7.75) -> SM (Preference 1)
+2025-10-23 21:51:48,164 - INFO -   Student 45 (Palash Sarkar, CGPA: 7.54) -> SKD (Preference 1)
+2025-10-23 21:51:48,164 - INFO -   Student 46 (Ayush Inani, CGPA: 7.52) -> MA (Preference 1)
+2025-10-23 21:51:48,164 - INFO -   Student 47 (Shikhar Choudhary, CGPA: 7.31) -> AR (Preference 2)
+2025-10-23 21:51:48,165 - INFO -   Student 48 (Ajeet Kumar, CGPA: 7.31) -> RM (Preference 3)
+2025-10-23 21:51:48,166 - INFO -   Student 49 (Chandan Kumar Jha, CGPA: 7.24) -> SS (Preference 2)
+2025-10-23 21:51:48,168 - INFO -   Student 50 (Kartick Chandra Seth, CGPA: 7.23) -> JC (Preference 4)
+2025-10-23 21:51:48,172 - INFO -   Student 51 (Bhavesh Mendhekar, CGPA: 7.11) -> AM (Preference 7)
+2025-10-23 21:51:48,174 - INFO -   Student 52 (Sarim Kamal, CGPA: 7.08) -> CA (Preference 5)
+2025-10-23 21:51:48,176 - INFO -   Student 53 (Ashish Kumar Singh, CGPA: 6.99) -> ST (Preference 12)
+2025-10-23 21:51:48,177 - INFO - 
+Cycle 3 summary: 18 faculties allocated
+2025-10-23 21:51:48,177 - INFO - 
+================================================================================
+2025-10-23 21:51:48,177 - INFO - CYCLE 4/5
+2025-10-23 21:51:48,178 - INFO - ================================================================================
+2025-10-23 21:51:48,178 - INFO - Students in this cycle: indices 54 to 71
+2025-10-23 21:51:48,179 - INFO -   Student 54 (Soma Seth Duley, CGPA: 6.98) -> RM (Preference 1)
+2025-10-23 21:51:48,179 - INFO -   Student 55 (Vishal Rawat, CGPA: 6.94) -> MA (Preference 1)
+2025-10-23 21:51:48,180 - INFO -   Student 56 (Abhimanyu Singh Rathore, CGPA: 6.92) -> SKM (Preference 1)
+2025-10-23 21:51:48,180 - INFO -   Student 57 (Roshni Chakraborty, CGPA: 6.91) -> SM (Preference 1)
+2025-10-23 21:51:48,181 - INFO -   Student 58 (Sayantan Mitra, CGPA: 6.81) -> AE (Preference 1)
+2025-10-23 21:51:48,181 - INFO -   Student 59 (Aditya Keshari, CGPA: 6.75) -> AM (Preference 2)
+2025-10-23 21:51:48,182 - INFO -   Student 60 (Sreenath P R, CGPA: 6.75) -> RM2 (Preference 1)
+2025-10-23 21:51:48,183 - INFO -   Student 61 (Arjun Bhandare Balachandra, CGPA: 6.74) -> CA (Preference 1)
+2025-10-23 21:51:48,185 - INFO -   Student 62 (Busireddy Venkat Dheeraj Reddy, CGPA: 6.74) -> ABM (Preference 1)
+2025-10-23 21:51:48,186 - INFO -   Student 63 (Amrit Raj, CGPA: 6.73) -> JC (Preference 1)
+2025-10-23 21:51:48,188 - INFO -   Student 64 (Mende Akshay, CGPA: 6.67) -> SKD (Preference 2)
+2025-10-23 21:51:48,190 - INFO -   Student 65 (Karan Kumar Gupta, CGPA: 6.66) -> RS (Preference 4)
+2025-10-23 21:51:48,191 - INFO -   Student 66 (Deba Prasad Dash, CGPA: 6.65) -> ST (Preference 2)
+2025-10-23 21:51:48,192 - INFO -   Student 67 (Ashish Kumar, CGPA: 6.60) -> SK (Preference 5)
+2025-10-23 21:51:48,192 - INFO -   Student 68 (Devansh Jaiswal, CGPA: 6.60) -> JM (Preference 4)
+2025-10-23 21:51:48,193 - INFO -   Student 69 (Ritesh Kumar, CGPA: 6.55) -> SS (Preference 2)
+2025-10-23 21:51:48,194 - INFO -   Student 70 (Anita Chandra, CGPA: 6.55) -> AR (Preference 15)
+2025-10-23 21:51:48,195 - INFO -   Student 71 (Sanjib Saikia, CGPA: 6.34) -> RH (Preference 7)
+2025-10-23 21:51:48,195 - INFO - 
+Cycle 4 summary: 18 faculties allocated
+2025-10-23 21:51:48,196 - INFO - 
+================================================================================
+2025-10-23 21:51:48,196 - INFO - CYCLE 5/5
+2025-10-23 21:51:48,197 - INFO - ================================================================================
+2025-10-23 21:51:48,197 - INFO - Students in this cycle: indices 72 to 89
+2025-10-23 21:51:48,198 - INFO -   Student 72 (Suryakanta Panda, CGPA: 6.32) -> SKM (Preference 1)
+2025-10-23 21:51:48,198 - INFO -   Student 73 (Gaurav Sundaram, CGPA: 6.32) -> AR (Preference 1)
+2025-10-23 21:51:48,198 - INFO -   Student 74 (Shadab Rabbani, CGPA: 6.29) -> JC (Preference 2)
+2025-10-23 21:51:48,199 - INFO -   Student 75 (Sukanta Sen, CGPA: 6.26) -> AE (Preference 1)
+2025-10-23 21:51:48,200 - INFO -   Student 76 (Ashish Kumar, CGPA: 6.21) -> RH (Preference 1)
+2025-10-23 21:51:48,202 - INFO -   Student 77 (Kandadi Venu Madhava, CGPA: 5.97) -> ST (Preference 2)
+2025-10-23 21:51:48,205 - INFO -   Student 78 (Mantavya Agarwal, CGPA: 5.91) -> SK (Preference 1)
+2025-10-23 21:51:48,206 - INFO -   Student 79 (Aswin Krishna, CGPA: 5.86) -> RS (Preference 1)
+2025-10-23 21:51:48,207 - INFO -   Student 80 (Shibsankar Das, CGPA: 5.84) -> ABM (Preference 2)
+2025-10-23 21:51:48,207 - INFO -   Student 81 (Alok Baranwal, CGPA: 5.81) -> RM (Preference 1)
+2025-10-23 21:51:48,208 - INFO -   Student 82 (Khushwant Singh, CGPA: 5.78) -> MA (Preference 1)
+2025-10-23 21:51:48,208 - INFO -   Student 83 (Mausam Chouksey, CGPA: 5.76) -> CA (Preference 1)
+2025-10-23 21:51:48,209 - INFO -   Student 84 (Gour Mohan Das, CGPA: 5.67) -> RM2 (Preference 1)
+2025-10-23 21:51:48,209 - INFO -   Student 85 (Sushant Kumar, CGPA: 5.62) -> JM (Preference 1)
+2025-10-23 21:51:48,210 - INFO -   Student 86 (Pramit Biswas, CGPA: 5.62) -> SS (Preference 5)
+2025-10-23 21:51:48,211 - INFO -   Student 87 (Saurabh Dubey, CGPA: 5.62) -> AM (Preference 2)
+2025-10-23 21:51:48,212 - INFO -   Student 88 (Md Shamim Shah, CGPA: 5.57) -> SKD (Preference 13)
+2025-10-23 21:51:48,213 - INFO -   Student 89 (Anirban Chakraborty, CGPA: 5.57) -> SM (Preference 16)
+2025-10-23 21:51:48,214 - INFO - 
+Cycle 5 summary: 18 faculties allocated
+2025-10-23 21:51:48,214 - INFO - 
+Creating allocation output
+2025-10-23 21:51:48,215 - INFO - Creating preference statistics
+2025-10-23 21:51:48,218 - INFO - 
+================================================================================
+2025-10-23 21:51:48,218 - INFO - ALLOCATION SUMMARY
+2025-10-23 21:51:48,220 - INFO - ================================================================================
+2025-10-23 21:51:48,221 - INFO - Total students: 90
+2025-10-23 21:51:48,221 - INFO - Allocated students: 90
+2025-10-23 21:51:48,223 - INFO - Unallocated students: 0
+2025-10-23 21:51:48,224 - INFO - 
+Students per faculty:
+2025-10-23 21:51:48,224 - INFO -   ABM: 5 students
+2025-10-23 21:51:48,225 - INFO -   AE: 5 students
+2025-10-23 21:51:48,225 - INFO -   AM: 5 students
+2025-10-23 21:51:48,225 - INFO -   AR: 5 students
+2025-10-23 21:51:48,226 - INFO -   CA: 5 students
+2025-10-23 21:51:48,226 - INFO -   JC: 5 students
+2025-10-23 21:51:48,226 - INFO -   JM: 5 students
+2025-10-23 21:51:48,227 - INFO -   MA: 5 students
+2025-10-23 21:51:48,227 - INFO -   RH: 5 students
+2025-10-23 21:51:48,227 - INFO -   RM: 5 students
+2025-10-23 21:51:48,228 - INFO -   RM2: 5 students
+2025-10-23 21:51:48,228 - INFO -   RS: 5 students
+2025-10-23 21:51:48,229 - INFO -   SK: 5 students
+2025-10-23 21:51:48,229 - INFO -   SKD: 5 students
+2025-10-23 21:51:48,229 - INFO -   SKM: 5 students
+2025-10-23 21:51:48,230 - INFO -   SM: 5 students
+2025-10-23 21:51:48,230 - INFO -   SS: 5 students
+2025-10-23 21:51:48,230 - INFO -   ST: 5 students
+2025-10-23 21:51:48,446 - INFO - Allocation completed successfully
