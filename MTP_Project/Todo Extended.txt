@@ -1,0 +1,44 @@
+Watch  after 9pm today. Its uploading : https://youtu.be/H4nbwVqkvdk
+Download: http://10.15.7.7:8000/1763391813887_e716a33
+
+Assume you have a photos/ folder where in all photos are saved as ROLL.jpg
+
+YYYY_MM_DD_<SESSION>_<ROOM>_<SUBCODE>.PDF
+
+2025_10_31_Morning_R104_CE1101.pdf
+2025_10_31_Morning_R104_CS1101.pdf
+2025_10_31_Morning_R104_EE5206.pdf
+2025_10_31_Morning_R104_MM2101.pdf 
+
+
+2025_10_31_Morning_R106_ME1101.pdf
+2025_10_31_Morning_R107_CE1101.pdf
+2025_10_31_Evening_R104_CE1102.pdf
+2025_10_31_Evening_R104_CS1102.pdf
+2025_10_31_Evening_R104_EE5306.pdf
+2025_10_31_Evening_R104_MM2202.pdf 
+2025_10_31_Evening_R106_ME1102.pdf
+2025_10_31_Evening_R107_CE1102.pdf
+
+
+2025_11_01_Morning_R109_CE1101.pdf
+2025_11_01_Morning_R109_CS5101.pdf
+2025_11_01_Morning_R109_EE5206.pdf
+2025_11_01_Morning_R109_MM2101.pdf 
+2025_11_01_Morning_R106_ME4101.pdf
+2025_11_01_Morning_R107_CE1101.pdf
+2025_11_01_Evening_R109_CE1102.pdf
+2025_11_01_Evening_R109_CS5102.pdf
+2025_11_01_Evening_R109_EE5306.pdf
+2025_11_01_Evening_R109_MM2202.pdf 
+2025_11_01_Evening_R106_ME4102.pdf
+2025_11_01_Evening_R107_CE1102.pdf
+
+attendance filename nomenclature as above
+YYYY_MM_DD_<SESSION>_<ROOM>_<SUBCODE>.PDF
+ 
+
+Python will have a pdf library that will be used for making pdf
+1. use try catch so that code does not stop on error
+2. user logger to generate logs of error (POINT out the errors on the days)
+3. use docker + streamlit 

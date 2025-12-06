@@ -1,0 +1,11 @@
+services:
+  exam-seating-app:
+    build: .
+    container_name: exam_seating_container
+    ports:
+      - "8502:8502"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

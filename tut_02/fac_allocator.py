@@ -1,8 +1,4 @@
-"""
-BTP/MTP Allocation System - CORRECTED VERSION
-Algorithm: Round-robin allocation based on sorted CGPA with mod n distribution
-Each cycle MUST allocate exactly ONE student to each faculty
-"""
+
 
 import pandas as pd
 import logging
@@ -22,15 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 def count_faculties(df: pd.DataFrame) -> Tuple[list, int]:
-    """
-    Dynamically count faculties from columns after CGPA.
     
-    Args:
-        df: Input dataframe with student preferences
-        
-    Returns:
-        Tuple of (faculty_list, faculty_count)
-    """
     try:
         # Fixed columns are: Roll, Name, Email, CGPA
         faculty_columns = df.columns[4:].tolist()
@@ -43,22 +31,7 @@ def count_faculties(df: pd.DataFrame) -> Tuple[list, int]:
 
 
 def allocate_students(input_file: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """
-    Allocate students to faculties using round-robin mod n algorithm.
     
-    Algorithm:
-    1. Sort students by CGPA in descending order (highest first)
-    2. In each cycle, allocate EXACTLY n students (one to each faculty)
-    3. Student at index i is allocated in cycle (i // n)
-    4. Within each cycle, students try their preferences from 1 to n
-    5. Each faculty gets exactly ONE student per complete cycle
-    
-    Args:
-        input_file: Path to input CSV file
-        
-    Returns:
-        Tuple of (allocation_df, preference_stats_df)
-    """
     try:
         # Read input file
         logger.info(f"Reading input file: {input_file}")
@@ -240,15 +213,7 @@ def allocate_students(input_file: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
 def save_outputs(allocation_df: pd.DataFrame, pref_stats_df: pd.DataFrame,
                  allocation_file: str = 'output_btp_mtp_allocation.csv',
                  pref_stats_file: str = 'fac_preference_count.csv'):
-    """
-    Save allocation results to CSV files.
     
-    Args:
-        allocation_df: Student allocation dataframe
-        pref_stats_df: Faculty preference statistics dataframe
-        allocation_file: Output file path for allocations
-        pref_stats_file: Output file path for preference statistics
-    """
     try:
         logger.info(f"Saving allocation to {allocation_file}")
         allocation_df.to_csv(allocation_file, index=False)
